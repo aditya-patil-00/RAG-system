@@ -1,6 +1,6 @@
 <h1 align="center" id="title">RAG System for NCERT PDFs</h1>
 
-<p id="description">This project is a web application built using Streamlit that integrates with FastAPI endpoints for querying and converting text responses into speech. It supports querying NCERT PDFs and provides text-to-speech functionality.</p>
+<p id="description">This project is a web application built using Streamlit that integrates with FastAPI endpoints for querying and converting text responses into speech. It supports querying NCERT PDFs and provides text-to-speech functionality. The RAG system uses the FAISS vector db for storing the generated text embeddings and is powered with the 'Meta-Llama-3.1-405B-Instruct' model.</p>
 
   
   
