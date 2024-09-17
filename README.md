@@ -11,7 +11,7 @@ Here're some of the project's best features:
 *   Query Processing : Query an uploaded NCERT PDF using the RAG or Agent endpoints.
 *   Text-to-Speech : Convert the response text to speech and play it directly in the app.
 
-<h2>🛠Installation Steps:</h2>
+<h2>Installation Steps:</h2>
 
 <p>1. Clone the Repository</p>
 
