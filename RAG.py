@@ -156,7 +156,7 @@ async def agent_system(query : str = Form(...), pdf_file : UploadFile = File(...
 
         # Step 6: Summarize the LLM response
         summary = summarize_text(response)
-        return {"response": summary, "similar_documents": similar_documents}
+        return {"response": summary}
     
     else:
         # Step 5: Retrieve similar documents using FAISS
@@ -165,4 +165,4 @@ async def agent_system(query : str = Form(...), pdf_file : UploadFile = File(...
         # Step 6: Generate response using OpenAI LLaMA 3.1
         response = generate_response(query, similar_documents)
     
-    return {"response": response, "similar_documents": similar_documents}
+        return {"response": response}
